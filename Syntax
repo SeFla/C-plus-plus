@@ -1,0 +1,10 @@
+<iostream>        // this is library for inputs/outputs 
+
+
+int main()        // this is function starts/ends with{ and }
+{  
+
+  cout<< "Hello world" << endl;         // cout for output in cosole endl or "/n" for ending line 
+  
+  return 0;
+}
