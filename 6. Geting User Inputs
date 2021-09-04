@@ -1,16 +1,44 @@
 // input nummber and use it 
 
 #include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
+{
 
-  int age;
-  cout << "Enter your age: ";
+
+  int age;                              // man kan byta int till double data typ för att printa ut 0.0 siffror eller char data typ för att printa ut ex G
+  cout << "Enter your age:";
   cin >> age;
+
+  cout <<"You are " << age << " years old" ;
+
+return 0;
+
+}
+
+
+_________________________________________________________________________________
+// input getline för att output  långa rader ex namen
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+
+  string name;
+  cout << "Enter your name: ";
+  getline(cin, name);
   
-  cout << "Your are" << age << " years old" ;
- 
-  return 0;
+  cout <<"Hello " << name;
+
+
+
+return 0;
 
 }
