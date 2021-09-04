@@ -1,0 +1,101 @@
+// string function är många
+
+
+// vilka boksav finns i tx 0
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+                               
+  string skola = "Nti skolan";
+  cout << skola[0];
+
+ 
+  return 0;
+
+}
+_________________________________________________________________________________________
+//Beräkna hur många bokstaver fins i string
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+                               
+  string skola = "Nti skolan";
+  cout << skola.length();
+
+ 
+  return 0;
+
+}
+
+
+
+_________________________________________________________________________________________
+//byta en bokstav 
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+                               
+  string skola = "Nti skolan";
+  skola[0] = 'B';
+  cout << skola;
+
+ 
+  return 0;
+
+}
+
+_________________________________________________________________________________________
+//från vilka bosekition börjar tx skolan 
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+                               
+  string skola = "Nti skolan";
+  
+  cout << skola.find ("skolan", 0);
+
+ 
+  return 0;
+
+}
+
+_________________________________________________________________________________________
+// skriv från tx nummer 4 altså bokstav position s, 3 bokstaver   
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+                               
+  string skola = "Nti skolan";
+  
+  cout << skola.substr (4, 3);
+
+ 
+  return 0;
+
+}
+
+
+
+
+
