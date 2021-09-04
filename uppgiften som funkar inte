@@ -4,20 +4,20 @@
   std::string input; 
 
 int main()
-{
+      {
 
   std::getline(std::cin, input);
 
       if (input == "quit")
       {
         std::cout << "ok, bye";
-     
+        else:: cout <<"app on 
       }
-      else std::cout  << "app on";
+      
 
     if (input == "exit")
     {
         std::cout << "ok, bye";
-     
+        else std::cout  << "app on";  
       }
-      else std::cout  << "app on";
+      
