@@ -1,2 +1,33 @@
+#include <iostream>
 
-hh
+using namespace std;
+
+int main()
+
+{
+
+ char grade = 'A';
+ string phrase = "Nti skolan";
+ int age = 50;
+ double point = 2.3;
+ bool isMale = true;
+
+
+
+
+cout << grade << "\n"; 
+cout << phrase << "\n";
+cout << age << "\n";
+cout << point << "\n";
+cout << isMale << "\n";
+
+
+
+
+
+ 
+  return 0;
+
+}
+
+
