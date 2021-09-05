@@ -1,0 +1,25 @@
+// Basic minräknare 
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+  int num1, num2;                     // man kan också änvända datatyp double för koma siffror
+
+  cout << " Enter first number: ";
+  cin >> num1;
+  
+  cout << " Enter second number: ";
+  cin >> num2;
+  
+  cout << num1+num2;
+  
+  
+
+
+return 0;
+
+}
