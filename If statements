@@ -1,0 +1,102 @@
+// det här är simple if ex 
+
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+{
+
+
+  bool isMale = true;
+  if(isMale)
+  {
+  cout << "you are a male";
+  }
+
+
+
+return 0;
+
+}
+__________________________________________________________________________
+// det här är if ex men om en av variabel är fel så kommer svaren  bli fel
+
+
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+{
+
+
+  bool isMale = false;
+  bool isTall = true;
+  
+  if(isMale && isTall)        // om vi änvänder || istället för && så kommer det blir att det räcker med en true condition för att det bli true
+  
+  {
+  cout << "you are a tall male";
+  }
+  
+  else 
+  {
+    cout << "you are not a tall male";
+  }
+
+
+
+return 0;
+
+}
+____________________________________________________________________
+// det här är if men komplicerat  
+
+
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+{
+
+
+  bool isMale = false;
+  bool isTall = true;
+  
+  if(isMale && isTall)       
+  
+  {
+  cout << "you are a tall male";
+  }
+  
+  else if (isMale && !isTall)
+  {
+  cout << "you are a short male";
+  }
+  
+  else if(!isMale && isTall)
+  {
+  cout << "you are tall but not male";
+  }
+  
+  else
+  {
+  cout << " you are not male and not tall";
+  }
+
+
+return 0;
+
+}
+ 
