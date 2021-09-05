@@ -1,0 +1,30 @@
+// Basic minräknare 
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+  string color, pouralNoun, celebrity;
+  
+  cout << "enter your color: ";
+  getline(cin, color);
+  
+  cout << "enter pourl noun: ";
+  getline(cin, pouralNoun);
+  
+  cout << "enter celebrity: ";
+  getline(cin, celebrity);
+  
+  
+  cout << "Roses are " << color << "\n";
+  cout << pouralNoun << " are plue" << "\n";
+  cout << "I love you " << celebrity;
+  
+
+
+return 0;
+
+}
