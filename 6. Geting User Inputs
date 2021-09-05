@@ -1,4 +1,4 @@
-// input nummber and use it 
+//  using input with numbers
 
 #include <iostream>
 #include <cmath>
@@ -9,7 +9,7 @@ int main()
 {
 
 
-  int age;                              // man kan byta int till double data typ för att printa ut 0.0 siffror eller char data typ för att printa ut ex G
+  int age;                              // man kan byta int till double datatyp för att printa ut 0.0 siffror eller char datatyp för att printa ut ex G
   cout << "Enter your age:";
   cin >> age;
 
@@ -21,7 +21,7 @@ return 0;
 
 
 _________________________________________________________________________________
-// input getline för att output  långa rader ex namen
+// input getline för att output  långa rader 
 
 #include <iostream>
 #include <cmath>
