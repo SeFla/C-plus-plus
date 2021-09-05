@@ -1,0 +1,164 @@
+// functioner hjälper oss att skapa en function och sen änvända de många gånger eller sätta information  i dem
+
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+
+
+void sayHi()
+{
+
+  cout << "Hello user";
+
+}
+
+
+
+
+
+int main()
+{
+
+  sayHi();
+ 
+ return 0;
+
+}
+_____________________________________________________________________________
+// man kan sätta funktion i mittan 
+
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+
+
+void sayHi()
+{
+
+  cout << "Hello user";
+
+}
+
+
+
+
+
+int main()
+{
+
+  cout << "lmao"<< "\n";
+  sayHi();
+  cout << "lol"; 
+  
+ return 0;
+
+}
+____________________________________________________________________________
+// funktion som inte har förstått än  
+
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+
+
+void sayHi(string name)
+{
+
+  cout << "Hello" << name;
+
+}
+
+
+
+
+
+int main()
+{
+
+  
+  sayHi ("Mike"); 
+  
+  
+ return 0;
+
+}
+___________________________________________________________________________
+// samma funktionen men "calling" på annat sätt
+
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+
+
+void sayHi(string name, int age)
+{
+
+  cout << "Hello " << name << " you are " << age;
+
+}
+
+
+
+
+
+int main()
+{
+
+  
+  sayHi ("Mike", 10); 
+  
+  
+ return 0;
+
+}
+______________________________________________________________
+// samma funktionen men avancerad 
+
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+
+
+void sayHi(string name, int age);
+
+
+
+
+
+
+int main()
+{
+
+  
+  sayHi ("Mike", 60); 
+  sayHi ("Salma", 50); 
+  sayHi ("Jomana", 40); 
+  sayHi ("Suzan", 30); 
+  sayHi ("Asma", 20); 
+  
+  
+ return 0;
+
+}
+
+
+void sayHi(string name, int age)
+
+{
+  cout << "Hello " << name << " you are " << age <<"\n";
+}
+
+
+
+
+
