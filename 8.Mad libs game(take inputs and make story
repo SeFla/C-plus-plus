@@ -1,4 +1,4 @@
-// Basic minräknare 
+// basic game beroende på inputs
 #include <cmath>
 #include <iostream>
 
@@ -20,7 +20,7 @@ int main()
   
   
   cout << "Roses are " << color << "\n";
-  cout << pouralNoun << " are plue" << "\n";
+  cout << pouralNoun << " are blue" << "\n";
   cout << "I love you " << celebrity;
   
 
