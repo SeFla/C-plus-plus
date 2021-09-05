@@ -1,1 +1,90 @@
-lmao
+// för att veta vilka nummer finns på ex 0 " array position"
+
+
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+{
+
+
+  int LuckyNums [] = {12, 54, 64, 69, 13, 20};
+  cout << LuckyNums [0];
+
+
+return 0;
+
+}
+___________________________________________________________
+// här byter vi position 0 till nummber 53
+
+
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+{
+
+
+  int LuckyNums [] = {12, 54, 64, 69, 13, 20};
+  LuckyNums[0] = 53;
+  
+  cout << LuckyNums [0];
+
+
+return 0;
+
+}
+
+________________________________________________________________
+// man också ge size på sin listan. vi har 500 position i listan ( det är inte måste att placera siffror i lägen ex 12, 54, 64, 69...)
+
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+{
+
+
+  int LuckyNums [500] = {12, 54, 64, 69, 13, 20};
+  LuckyNums[0] = 53;
+  
+  cout << LuckyNums [0];
+
+
+return 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
