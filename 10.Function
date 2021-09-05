@@ -1,4 +1,4 @@
-// functioner hjälper oss att skapa en function och sen änvända de många gånger eller sätta information  i dem
+// functioner hjälper oss att skapa en function och sen änvända de många gånger 
 
 #include <cmath>
 #include <iostream>
