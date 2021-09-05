@@ -19,7 +19,7 @@ int main()
 
 }
 _________________________________________________________________________________________
-//Beräkna hur många bokstaver fins i string
+//Beräkna hur många bokstaver finns i string
 
 #include <iostream>
 using namespace std;
@@ -58,7 +58,7 @@ int main()
 }
 
 _________________________________________________________________________________________
-//från vilka bosekition börjar tx skolan 
+//från vilka  position börjar tx skolan 
 
 #include <iostream>
 using namespace std;
@@ -77,7 +77,7 @@ int main()
 }
 
 _________________________________________________________________________________________
-// skriv från tx nummer 4 altså bokstav position s, 3 bokstaver   
+// skriv från tx nummer 4 "altså bokstav" position s, (3 bokstaver)   
 
 #include <iostream>
 using namespace std;
