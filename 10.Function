@@ -58,7 +58,7 @@ int main()
 
 }
 ____________________________________________________________________________
-// funktion som inte har förstått än  
+// funktion som säger welcome till namnen   
 
 #include <cmath>
 #include <iostream>
@@ -89,7 +89,7 @@ int main()
 
 }
 ___________________________________________________________________________
-// samma funktionen men "calling" på annat sätt
+// samma funktionen men mera detaljer till personen
 
 #include <cmath>
 #include <iostream>
